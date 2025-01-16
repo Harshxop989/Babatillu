@@ -184,7 +184,7 @@ async def alone_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
         "/bgmi->   ༒︎ 𝙁𝙊𝙍 𝘼𝙏𝙏𝘼𝘾𝙆 𝙏𝘼𝙍𝙂𝙀𝙏 𝙎𝙀𝙏\n"
         "/start->   ༒ ︎𝙁𝙊𝙍 𝘼𝙏𝙏𝘼𝘾𝙆 𝙎𝙏𝘼𝙍𝙏\n"
         "/stop->   ༒︎ 𝙁𝙊𝙍 𝘼𝙏𝙏𝘼𝘾𝙆 𝙎𝙏𝙊𝙋\n\n"
-        f"✅𝙊𝙒𝙉𝙀𝙍-> {@HARSHx08}"
+        f"✅𝙊𝙒𝙉𝙀𝙍-> {OWNER_USERNAME}"
     ) # Send message with the keyboard buttons
     await update.message.reply_text(response, reply_markup=markup)
 
